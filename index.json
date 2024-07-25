@@ -141,7 +141,7 @@
     <nav>
       <ul>
         <li>
-          <a href="#seccion1">Sección 1</a>
+          <a href="#iylllme">Sección 1</a>
         </li>
       </ul>
     </nav>
@@ -1011,4 +1011,17 @@ document.addEventListener('DOMContentLoaded', makeClickableDivs);</script>
   
   
   
-  </grid-body><script id="page-global.js" type="text/javascript" data-type="js"></script>
+  </grid-body><script id="page-global.js" type="text/javascript" data-type="js">document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    const targetId = this.getAttribute('href');
+    const targetElement = document.querySelector(targetId);
+    const navHeight = document.querySelector('nav').offsetHeight;
+    const targetPosition = targetElement.getBoundingClientRect().top +
+      window.pageYOffset - navHeight;
+    window.scrollTo({
+      top: targetPosition,
+      behavior: 'smooth'
+    });
+  });
+});</script>
