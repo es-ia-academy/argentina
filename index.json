@@ -155,7 +155,7 @@
 
           <grid-box id="HODAAHZ">
             <grid-head id="yTOHBNU">
-              <grid-title id="bddYizo" contenteditable="true">Categorias</grid-title>
+              <grid-title id="bddYizo" contenteditable="true">Grid Item</grid-title>
               <grid-desc id="srHKqcS" contenteditable="true">Lorem ipsum dolor sit amet</grid-desc>
             </grid-head>
             <grid-item id="losYjjO" class="clickable-div">
