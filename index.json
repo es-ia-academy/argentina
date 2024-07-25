@@ -1,7 +1,158 @@
 <style id="page-laptop.css" type="text/css" data-type="css" data-size="laptop" data-content="page"></style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px) { /* Mobile */ }</style><grid-body id="grid-body">
   
   
-  <section id="AqTMLAt" data-type="section">
+  <section id="RQskBCH" data-type="navigation">
+      
+      <!--CSS-->
+      <style id="PIguLIx" type="text/css" data-type="css" data-size="laptop" data-content="section">
+
+  section#RQskBCH {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);
+    position:sticky;
+    top:0;
+    z-index:999;
+  }
+
+  grid-container#bNxWqdy {
+    position: relative;
+  }
+
+  grid-bg#dYHXpMk {
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    display:block;
+  }
+  div#HeaUxIc,
+  div#LHEqHZN,
+  div#noxolzA,
+  div#sOBCSMz{
+    height:100%;
+    width:100%;
+  }
+
+  div#vrnuOhz{
+    height:100%;
+    width:100%;
+    
+  }
+
+  div#bYaUTsC{
+    height:100%;
+    width:100%;
+    
+  }
+
+  img#sXhZRgL {
+    object-fit:cover;
+    height:100%;
+    width:100%;
+  }
+
+  video#XMMrrHT {
+    object-fit:cover;
+    height:100%;
+    width:100%;
+  }
+  
+  grid-box#umwuDAh{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-auto-rows: auto;
+    width: 100%;
+    height: 100%;
+    min-height: 50px;
+    place-content: center;
+    place-items: center;
+  }
+
+  grid-box#umwuDAh a{
+    border: none;
+    padding: 0 15px;
+    color: black;
+    font-size: 14px;
+    border-radius: 10px;
+    text-underline-position: under;
+    height: 50px;
+    width: fit-content;
+    display: grid;
+    place-content: center;
+  }
+
+  grid-item#LQZLWzX{
+    display: grid;
+    place-content: center;
+    padding: 0px;
+    gap: 0px;
+    height: auto;
+  }
+
+  img#hGbNOeL{
+    object-fit:cover;
+    height:80px;
+    width:100%;
+  }
+  #JILIsoK{
+    display: flex;
+    gap: 10px;
+    flex-flow: wrap;
+  }
+  
+  #WoJBhQb{
+    display: flex;
+    gap: 10px;
+    flex-flow: wrap;
+  }
+  
+  </style>
+      <style id="CGJRXIu" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
+      <style id="pwslfjn" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
+  grid-box#umwuDAh{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  }</style>
+      
+      <!--HTML-->
+      <div id="nzLCWlj" data-type="html"><grid-container id="YJHhcjJ">
+  <grid-bg id="dYHXpMk" data-type="grid-bg">
+    <!-- bg-color -->
+    <div id="HeaUxIc" data-type="bg-color" class="div-visible">
+      <div id="LHEqHZN" data-type="solid-color" class="div-visible" style="background: rgb(255, 255, 255);"></div>
+      <div id="noxolzA" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+      <div id="sOBCSMz" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+    </div>
+    <!-- bg-image -->
+    <div id="vrnuOhz" data-type="bg-image" class="div-hidden">
+      <picture id="DVqJmXn">
+        <source srcset="" media="(max-width:640px)">
+        <source srcset="" media="(min-width:641px) and (max-width:1024px)">
+        <img id="sXhZRgL" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="img-bg" loading="lazy">
+      </picture>
+    </div>
+    <!-- bg-video -->
+    <div id="bYaUTsC" data-type="bg-video" class="div-hidden">
+      <video id="XMMrrHT" autoplay="" loop="" muted="" loading="lazy">
+        <source src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4" type="video/mp4">
+      </video>
+    </div>
+  </grid-bg>
+  <grid-box id="umwuDAh">
+    <nav>
+        <ul>
+            <li><a href="#seccion1">Sección 1</a></li>
+            <li><a href="#seccion2">Sección 2</a></li>
+            <li><a href="#seccion3">Sección 3</a></li>
+        </ul>
+    </nav>
+  </grid-box>
+</grid-container></div>
+      
+      <!--JS-->
+      <script id="cXIDrdN" data-type="js"></script>
+      <!--EDIT-->
+      <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
+  </section><section id="AqTMLAt" data-type="section">
       
       <!--CSS-->
       <style id="iZryMfU" type="text/css" data-type="css" data-size="laptop" data-content="section">
@@ -856,6 +1007,8 @@ document.addEventListener('DOMContentLoaded', makeClickableDivs);</script>
       <!--EDIT-->
       <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
   </section>
+  
+  
   
   
   </grid-body><script id="page-global.js" type="text/javascript" data-type="js"></script>
